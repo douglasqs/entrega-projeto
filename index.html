@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Meu Site</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="produtos.html">Produtos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h1>Bem-vindo!</h1>
+            <p>Douglas</p>
+        </section>
+        
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>Informações sobre o objetivo, negócio ou empresa.</p>
+        </section>
+        
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <p>Informações sobre os produtos e/ou serviços oferecidos.</p>
+        </section>
+        
+        <section id="contato">
+            <h2>Contato</h2>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Entre em contato através do telefone: <span class="phone">48 9999-9999</span> ou pelo e-mail: <span class="email">contato@douglas.com.br</span></p>
+    </footer>
+</body>
+</html>
